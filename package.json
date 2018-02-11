@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "mobi, server",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khryt/mobi-server.git"
+  },
+  "keywords": [
+    "mobi",
+    "server"
+  ],
+  "author": "Khary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khryt/mobi-server/issues"
+  },
+  "homepage": "https://github.com/Khryt/mobi-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
